@@ -2,7 +2,7 @@ def simpleList():
     days = {"lun": 'lunes', 'mar': 'martes', 1:2, 2:False, 3: 18772768, 'pi:': 3.141564}
     #print only values
     for index in days:
-        print days[index]
+        print(days[index])
 
     #print key and value
     for k,v in days.items():
@@ -24,9 +24,9 @@ def practice_list_1():
     """
     areas = ["hallway", hall, "kitchen", kit, "living room", liv, "bedroom", bed , "bathroom", bath]    
                 
-    print areas                  
+    print(areas)
     
-    print type(areas)    
+    print(type(areas))
     
 def practice_sublist_2():
     # Create the areas list
@@ -59,9 +59,16 @@ def createOtherList():
     areas = ["hallway", 11.25, "kitchen", 18.0, "living room", 20.0, "bedroom", 10.75, "bathroom", 9.50]
     areas_1 = areas + ["garage", 15.65]        
     
-    print areas_1
+    print(areas_1)
+
+def listIndex():
+    # Create list areas
+    areas = [11.25, 18.0, 20.0, 10.75, 9.50]
+
+    # Print out the index of the element 20.0
+    print(areas.index(20.0))
+
+    # Print out how often 14.5 appears in areas
+    print(areas.count(14.5))
     
-def Delete_list_elements():
-    
-    
-createOtherList()
+listIndex()

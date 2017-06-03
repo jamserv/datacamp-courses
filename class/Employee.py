@@ -6,4 +6,4 @@ class Employee:
         self.salary = salary
 
     def printNomin(self):        
-        print self.name + " gana %s " % self.salary
+        print (self.name + " gana %s " % self.salary)
